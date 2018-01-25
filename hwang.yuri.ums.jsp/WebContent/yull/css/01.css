@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+tabel{
+	border-collapse:collapse;
+	border-top:2px solid #333;
+	border-bottom:1px solid #333;
+	width:100%;
+}
+table th,td{
+	width:600px;
+	margin:0;
+	padding:8px;
+}
+table th{
+	background-color:#999;
+	color:#fff;
+	border-bottom-width:2px;
+	border-bottom-style:solid;
+	border-bottom-color:#000;
+	font-size:1.1em;
+}
+table td{
+	border-bottom-width:1px;
+	border-bottom-style:dotted;
+	border-bottom-color:#666;
+}
+table tr:hover{
+	background-color:#fc6;
+	cursor:hand;
+}
